@@ -1,5 +1,10 @@
 body {
     background-image: linear-gradient(#2e2d2a, #000000);
+
+}
+
+#elements {
+    opacity: 0;
 }
 
 #middle-name
@@ -15,5 +20,7 @@ body {
 hr {
     position: absolute;
     width: 180px;
-    top: 260px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);   
 }

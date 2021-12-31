@@ -3,11 +3,26 @@
         <title>Bogdanctx</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+        <meta http-equiv="refresh" content="7761">
 
     </head>
-    <body>
+    <body onload="ShowElements()">
 
-        <h1 id="middle-name">BOGDAN</h1>
-        <hr>
+        <div id="elements">
+
+            <h1 id="middle-name">
+                BOGDAN
+                <hr>
+            </h1>
+        </div>
+
+        <script>
+            function ShowElements()
+            {
+                document.getElementById('elements').style.opacity=1;
+            }
+        </script>
+
     </body>
 </html>
