@@ -1,26 +1,21 @@
 body {
-    background-image: linear-gradient(#2e2d2a, #000000);
-
+    background-color: black;
 }
 
-#elements {
-    opacity: 0;
+#background-img {
+    width: 100%;
+    height: 100%;
 }
 
-#middle-name
-{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+a {
     color: white;
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translateX(-50%);
+    text-decoration: none;
+    padding: 5px;
 }
 
-hr {
+.elements {
     position: absolute;
-    width: 180px;
-    top: 50px;
+    top: 60%;
     left: 50%;
-    transform: translateX(-50%);   
+    transform: translateX(-50%);
 }
