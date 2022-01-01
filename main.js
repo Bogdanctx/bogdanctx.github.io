@@ -1,5 +1,8 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
     $("#background-img").animate({
         height: "100%"
-    }, 700);
-});*/
+    }, 1000);
+    $(".elements").animate({
+        top: "60%"
+    }, 1000);
+});
