@@ -1,8 +1,11 @@
 $(document).ready(function() {
-    $("#background-img").animate({
-        height: "100%"
-    }, 1000);
     $(".elements").animate({
-        top: "60%"
-    }, 1000);
+        top: "60%",
+        opacity: 1
+    }, 1500);
+    setTimeout(() => {
+        $("#background-img").animate({
+            opacity: 1
+        }, 1000);
+    }, 1600);
 });
