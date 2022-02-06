@@ -1,14 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
 body {
     background-image: linear-gradient(to bottom right, #09494f, black);
 }
 
-#avatar {
-    border: 5px solid white;
-    width: 130px;
-    height: 130px;
-    border-radius: 100px;
-    transform: translateY(150px);
-    opacity: 0;
+#name {
+    font-family: 'Convergence', sans-serif;
+    color: white;
 }
 
 a {
@@ -18,9 +16,7 @@ a {
 }
 
 .elements {
-    position: absolute;
-    top: 60%;
-    left: 50%;
     opacity: 0;
-    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 20%;
 }
